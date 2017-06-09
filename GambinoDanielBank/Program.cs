@@ -19,8 +19,6 @@ namespace GambinoDanielBank
             SavingsAccounts.Add(new SavingsAccount("6654354235-35253463-53463534", "Mss.MoneySaver", 0.01));
             SavingsAccounts[0].Withdraw(300);
 
-            Console.WriteLine("");
-            Console.WriteLine("IR: "+SavingsAccounts[0].interestRate);
             Console.ReadKey();
         }
     }
